@@ -1,0 +1,63 @@
+{"operation": "UPDATE", "customer_id": "C024", "name": "Customer 24", "email": "customer24@example.com", "city": "Mumbai", "tier": "BRONZE", "sequence_num": 1024, "event_time": "2026-10-02 02:04:00"}
+{"operation": "UPDATE", "customer_id": "C026", "name": "Customer 26", "email": "customer26@example.com", "city": "Pune", "tier": "GOLD", "sequence_num": 1026, "event_time": "2026-10-02 02:06:00"}
+{"operation": "UPDATE", "customer_id": "C019", "name": "Customer 19", "email": "customer19@example.com", "city": "Bengaluru", "tier": "BRONZE", "sequence_num": 1019, "event_time": "2026-10-02 01:59:00"}
+{"operation": "UPDATE", "customer_id": "C006", "name": "Customer 6", "email": "customer6@example.com", "city": "Chennai", "tier": "GOLD", "sequence_num": 1006, "event_time": "2026-10-02 01:46:00"}
+{"operation": "UPDATE", "customer_id": "C028", "name": "Customer 28", "email": "customer28@example.com", "city": "Chennai", "tier": "GOLD", "sequence_num": 1028, "event_time": "2026-10-02 02:08:00"}
+{"operation": "INSERT", "customer_id": "C106", "name": "Customer 106", "email": "customer106@example.com", "city": "Hyderabad", "tier": "GOLD", "sequence_num": 1051, "event_time": "2026-10-02 02:31:00"}
+{"operation": "MERGE", "customer_id": "C001", "name": "Customer 900", "email": "customer900@example.com", "city": "Bengaluru", "tier": "BRONZE", "sequence_num": 2002, "event_time": "2026-10-02 18:22:00"}
+{"operation": "INSERT", "customer_id": "C103", "name": "Customer 103", "email": "customer103@example.com", "city": "Hyderabad", "tier": "BRONZE", "sequence_num": 1048, "event_time": "2026-10-02 02:28:00"}
+{"operation": "UPDATE", "customer_id": "C014", "name": "Customer 14", "email": "customer14@example.com", "city": "Pune", "tier": "GOLD", "sequence_num": 1014, "event_time": "2026-10-02 01:54:00"}
+{"operation": "UPDATE", "customer_id": "C005", "name": "Customer 5", "email": "customer5@example.com", "city": "Delhi", "tier": "GOLD", "sequence_num": 1035, "event_time": "2026-10-02 02:15:00"}
+{"operation": "UPDATE", "customer_id": "C005", "name": "Customer 5", "email": "customer5@example.com", "city": "Mumbai", "tier": "GOLD", "sequence_num": 1005, "event_time": "2026-10-02 01:45:00"}
+{"operation": "DELETE", "customer_id": "C099", "name": null, "email": null, "city": null, "tier": null, "sequence_num": 1044, "event_time": "2026-10-02 02:24:00"}
+{"operation": "INSERT", "customer_id": "C109", "name": "Customer 109", "email": "customer109@example.com", "city": "Hyderabad", "tier": "BRONZE", "sequence_num": 1054, "event_time": "2026-10-02 02:34:00"}
+{"operation": "DELETE", "customer_id": "C092", "name": null, "email": null, "city": null, "tier": null, "sequence_num": 1037, "event_time": "2026-10-02 02:17:00"}
+{"operation": "INSERT", "customer_id": "C115", "name": "Customer 115", "email": "customer115@example.com", "city": "Hyderabad", "tier": "GOLD", "sequence_num": 1060, "event_time": "2026-10-02 02:40:00"}
+{"operation": "DELETE", "customer_id": "C093", "name": null, "email": null, "city": null, "tier": null, "sequence_num": 1038, "event_time": "2026-10-02 02:18:00"}
+{"operation": "UPDATE", "customer_id": "C027", "name": "Customer 27", "email": "customer27@example.com", "city": "Pune", "tier": "SILVER", "sequence_num": 1027, "event_time": "2026-10-02 02:07:00"}
+{"operation": "UPDATE", "customer_id": "C009", "name": "Customer 9", "email": "customer9@example.com", "city": "Mumbai", "tier": "BRONZE", "sequence_num": 1009, "event_time": "2026-10-02 01:49:00"}
+{"operation": "UPDATE", "customer_id": "C002", "name": "Customer 2", "email": "customer2@example.com", "city": "Bengaluru", "tier": "GOLD", "sequence_num": 1032, "event_time": "2026-10-02 02:12:00"}
+{"operation": "UPDATE", "customer_id": "C022", "name": "Customer 22", "email": "customer22@example.com", "city": "Mumbai", "tier": "GOLD", "sequence_num": 1022, "event_time": "2026-10-02 02:02:00"}
+{"operation": "UPDATE", "customer_id": "C023", "name": "Customer 23", "email": "customer23@example.com", "city": "Hyderabad", "tier": "GOLD", "sequence_num": 1023, "event_time": "2026-10-02 02:03:00"}
+{"operation": "INSERT", "customer_id": "C104", "name": "Customer 104", "email": "customer104@example.com", "city": "Chennai", "tier": "BRONZE", "sequence_num": 1049, "event_time": "2026-10-02 02:29:00"}
+{"operation": "UPDATE", "customer_id": "C020", "name": "Customer 20", "email": "customer20@example.com", "city": "Hyderabad", "tier": "SILVER", "sequence_num": 1020, "event_time": "2026-10-02 02:00:00"}
+{"operation": "UPDATE", "customer_id": "C011", "name": "Customer 11", "email": "customer11@example.com", "city": "Bengaluru", "tier": "SILVER", "sequence_num": 1011, "event_time": "2026-10-02 01:51:00"}
+{"operation": "UPDATE", "customer_id": "C030", "name": "Customer 30", "email": "customer30@example.com", "city": "Delhi", "tier": "BRONZE", "sequence_num": 1030, "event_time": "2026-10-02 02:10:00"}
+{"operation": "UPDATE", "customer_id": "C002", "name": "Customer 900", "email": "not-an-email", "city": "Bengaluru", "tier": "BRONZE", "sequence_num": 2003, "event_time": "2026-10-02 18:23:00"}
+{"operation": "UPDATE", "customer_id": "C025", "name": "Customer 25", "email": "customer25@example.com", "city": "Delhi", "tier": "GOLD", "sequence_num": 1025, "event_time": "2026-10-02 02:05:00"}
+{"operation": "UPDATE", "customer_id": null, "name": "Customer 900", "email": "customer900@example.com", "city": "Bengaluru", "tier": "BRONZE", "sequence_num": 2001, "event_time": "2026-10-02 18:21:00"}
+{"operation": "DELETE", "customer_id": "C097", "name": null, "email": null, "city": null, "tier": null, "sequence_num": 1042, "event_time": "2026-10-02 02:22:00"}
+{"operation": "UPDATE", "customer_id": "C015", "name": "Customer 15", "email": "customer15@example.com", "city": "Bengaluru", "tier": "BRONZE", "sequence_num": 1015, "event_time": "2026-10-02 01:55:00"}
+{"operation": "UPDATE", "customer_id": "C017", "name": "Customer 17", "email": "customer17@example.com", "city": "Hyderabad", "tier": "BRONZE", "sequence_num": 1017, "event_time": "2026-10-02 01:57:00"}
+{"operation": "INSERT", "customer_id": "C112", "name": "Customer 112", "email": "customer112@example.com", "city": "Mumbai", "tier": "GOLD", "sequence_num": 1057, "event_time": "2026-10-02 02:37:00"}
+{"operation": "UPDATE", "customer_id": "C003", "name": "Customer 3", "email": "customer3@example.com", "city": "Hyderabad", "tier": "BRONZE", "sequence_num": 1003, "event_time": "2026-10-02 01:43:00"}
+{"operation": "UPDATE", "customer_id": "C018", "name": "Customer 18", "email": "customer18@example.com", "city": "Chennai", "tier": "BRONZE", "sequence_num": 1018, "event_time": "2026-10-02 01:58:00"}
+{"operation": "UPDATE", "customer_id": "C013", "name": "Customer 13", "email": "customer13@example.com", "city": "Mumbai", "tier": "BRONZE", "sequence_num": 1013, "event_time": "2026-10-02 01:53:00"}
+{"operation": "UPDATE", "customer_id": "C016", "name": "Customer 16", "email": "customer16@example.com", "city": "Hyderabad", "tier": "GOLD", "sequence_num": 1016, "event_time": "2026-10-02 01:56:00"}
+{"operation": "DELETE", "customer_id": "C100", "name": null, "email": null, "city": null, "tier": null, "sequence_num": 1045, "event_time": "2026-10-02 02:25:00"}
+{"operation": "DELETE", "customer_id": "C096", "name": null, "email": null, "city": null, "tier": null, "sequence_num": 1041, "event_time": "2026-10-02 02:21:00"}
+{"operation": "UPDATE", "customer_id": "C007", "name": "Customer 7", "email": "customer7@example.com", "city": "Mumbai", "tier": "BRONZE", "sequence_num": 1007, "event_time": "2026-10-02 01:47:00"}
+{"operation": "INSERT", "customer_id": "C110", "name": "Customer 110", "email": "customer110@example.com", "city": "Delhi", "tier": "SILVER", "sequence_num": 1055, "event_time": "2026-10-02 02:35:00"}
+{"operation": "INSERT", "customer_id": "C101", "name": "Customer 101", "email": "customer101@example.com", "city": "Delhi", "tier": "BRONZE", "sequence_num": 1046, "event_time": "2026-10-02 02:26:00"}
+{"operation": "DELETE", "customer_id": "C098", "name": null, "email": null, "city": null, "tier": null, "sequence_num": 1043, "event_time": "2026-10-02 02:23:00"}
+{"operation": "UPDATE", "customer_id": "C004", "name": "Customer 4", "email": "customer4@example.com", "city": "Hyderabad", "tier": "BRONZE", "sequence_num": 1034, "event_time": "2026-10-02 02:14:00"}
+{"operation": "UPDATE", "customer_id": "C021", "name": "Customer 21", "email": "customer21@example.com", "city": "Delhi", "tier": "GOLD", "sequence_num": 1021, "event_time": "2026-10-02 02:01:00"}
+{"operation": "UPDATE", "customer_id": "C004", "name": "Customer 4", "email": "customer4@example.com", "city": "Bengaluru", "tier": "BRONZE", "sequence_num": 1004, "event_time": "2026-10-02 01:44:00"}
+{"operation": "DELETE", "customer_id": "C091", "name": null, "email": null, "city": null, "tier": null, "sequence_num": 1036, "event_time": "2026-10-02 02:16:00"}
+{"operation": "UPDATE", "customer_id": "C008", "name": "Customer 8", "email": "customer8@example.com", "city": "Chennai", "tier": "SILVER", "sequence_num": 1008, "event_time": "2026-10-02 01:48:00"}
+{"operation": "INSERT", "customer_id": "C102", "name": "Customer 102", "email": "customer102@example.com", "city": "Pune", "tier": "BRONZE", "sequence_num": 1047, "event_time": "2026-10-02 02:27:00"}
+{"operation": "DELETE", "customer_id": "C095", "name": null, "email": null, "city": null, "tier": null, "sequence_num": 1040, "event_time": "2026-10-02 02:20:00"}
+{"operation": "UPDATE", "customer_id": "C001", "name": "Customer 1", "email": "customer1@example.com", "city": "Hyderabad", "tier": "BRONZE", "sequence_num": 1031, "event_time": "2026-10-02 02:11:00"}
+{"operation": "INSERT", "customer_id": "C108", "name": "Customer 108", "email": "customer108@example.com", "city": "Mumbai", "tier": "SILVER", "sequence_num": 1053, "event_time": "2026-10-02 02:33:00"}
+{"operation": "INSERT", "customer_id": "C113", "name": "Customer 113", "email": "customer113@example.com", "city": "Pune", "tier": "GOLD", "sequence_num": 1058, "event_time": "2026-10-02 02:38:00"}
+{"operation": "UPDATE", "customer_id": "C010", "name": "Customer 10", "email": "customer10@example.com", "city": "Pune", "tier": "BRONZE", "sequence_num": 1010, "event_time": "2026-10-02 01:50:00"}
+{"operation": "INSERT", "customer_id": "C107", "name": "Customer 107", "email": "customer107@example.com", "city": "Chennai", "tier": "SILVER", "sequence_num": 1052, "event_time": "2026-10-02 02:32:00"}
+{"operation": "INSERT", "customer_id": "C114", "name": "Customer 114", "email": "customer114@example.com", "city": "Hyderabad", "tier": "GOLD", "sequence_num": 1059, "event_time": "2026-10-02 02:39:00"}
+{"operation": "UPDATE", "customer_id": "C001", "name": "Customer 1", "email": "customer1@example.com", "city": "Mumbai", "tier": "BRONZE", "sequence_num": 1001, "event_time": "2026-10-02 01:41:00"}
+{"operation": "DELETE", "customer_id": "C094", "name": null, "email": null, "city": null, "tier": null, "sequence_num": 1039, "event_time": "2026-10-02 02:19:00"}
+{"operation": "UPDATE", "customer_id": "C012", "name": "Customer 12", "email": "customer12@example.com", "city": "Mumbai", "tier": "GOLD", "sequence_num": 1012, "event_time": "2026-10-02 01:52:00"}
+{"operation": "INSERT", "customer_id": "C105", "name": "Customer 105", "email": "customer105@example.com", "city": "Chennai", "tier": "GOLD", "sequence_num": 1050, "event_time": "2026-10-02 02:30:00"}
+{"operation": "UPDATE", "customer_id": "C029", "name": "Customer 29", "email": "customer29@example.com", "city": "Mumbai", "tier": "BRONZE", "sequence_num": 1029, "event_time": "2026-10-02 02:09:00"}
+{"operation": "INSERT", "customer_id": "C111", "name": "Customer 111", "email": "customer111@example.com", "city": "Pune", "tier": "GOLD", "sequence_num": 1056, "event_time": "2026-10-02 02:36:00"}
+{"operation": "UPDATE", "customer_id": "C002", "name": "Customer 2", "email": "customer2@example.com", "city": "Chennai", "tier": "GOLD", "sequence_num": 1002, "event_time": "2026-10-02 01:42:00"}
+{"operation": "UPDATE", "customer_id": "C003", "name": "Customer 3", "email": "customer3@example.com", "city": "Bengaluru", "tier": "BRONZE", "sequence_num": 1033, "event_time": "2026-10-02 02:13:00"}

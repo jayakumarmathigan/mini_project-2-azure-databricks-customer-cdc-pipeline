@@ -1,0 +1,20 @@
+# Declarative Automation Bundle (formerly Databricks Asset Bundle)
+bundle:
+  name: customer_cdc
+
+include:
+  - resources/*.yml
+
+variables:
+  catalog:
+    description: Existing Unity Catalog catalog to use
+    default: workspace
+  schema:
+    description: Schema for this project
+    default: customer_cdc
+
+targets:
+  dev:
+    mode: development
+    default: true
+    # The workspace URL comes from your Databricks CLI login profile

@@ -1,0 +1,38 @@
+resources:
+  pipelines:
+    customer_cdc_pipeline:
+      name: customer_cdc_pipeline
+      serverless: true
+      catalog: ${var.catalog}
+      schema: ${var.schema}
+      root_path: ../pipeline
+      libraries:
+        - glob:
+            include: ../pipeline/transformations/**
+      configuration:
+        landing_path: /Volumes/${var.catalog}/${var.schema}/files/landing
+
+  jobs:
+    customer_cdc_job:
+      name: customer_cdc_job
+      parameters:
+        - name: catalog
+          default: ${var.catalog}
+        - name: schema
+          default: ${var.schema}
+        - name: batch
+          default: "1"
+      tasks:
+        - task_key: setup
+          notebook_task:
+            notebook_path: ../notebooks/00_setup.py
+        - task_key: run_pipeline
+          depends_on:
+            - task_key: setup
+          pipeline_task:
+            pipeline_id: ${resources.pipelines.customer_cdc_pipeline.id}
+        - task_key: validate
+          depends_on:
+            - task_key: run_pipeline
+          notebook_task:
+            notebook_path: ../notebooks/01_validate_results.py
